@@ -1,0 +1,12 @@
+---
+layout: page
+title: 书谱 
+header: Pages
+group: navigation
+---
+{% include JB/setup %}
+
+{% for post in site.categories.lessons %}
+    <li>{{ post.title }}</li>
+{% endfor %}
+ets
