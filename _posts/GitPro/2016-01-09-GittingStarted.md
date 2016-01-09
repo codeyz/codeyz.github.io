@@ -38,6 +38,7 @@ The basic Git workload goes something like this:
 ![Git is distributed]({{ site.url }}/assets/images/GitPro/3States.png)
 
 ###First-Time Git setup
+
 ####Configuration files
 There are three location where Git stores its configuration:
 
@@ -47,7 +48,7 @@ There are three location where Git stores its configuration:
 
 The priority is `.git/config` > `~/.gitconfig` or `~/.config/git/config` > `/etc/gitconfig`. The higher overrides the lower.
 
-###Your identify
+####Your identify
 Once after you install Git, you should set your user name and email address, which will be baked into your commits.
 
 	git config [--global, --system] user.name "codeyz"
