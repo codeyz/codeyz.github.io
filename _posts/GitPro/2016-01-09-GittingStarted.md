@@ -1,8 +1,8 @@
 ---
 title: Getting Started
 layout: post
-category : life
-tag : life,诗
+category : Git
+tag : Git
 ---
 {% include JB/setup %}
 
