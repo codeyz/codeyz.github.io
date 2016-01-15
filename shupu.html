@@ -6,7 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
-{% for post in site.categories.lessons %}
-    <li>{{ post.title }}</li>
+<ul>
+{% for post in site.categories.shupu %}
+    <li>{{ post.url }}</li>
 {% endfor %}
-ets
+</ul>
