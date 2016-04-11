@@ -35,13 +35,13 @@ $ git checkout -b [branch-name] #create a new branch anc switch to it
 $ git merge [branch-name]
 </pre>
 
-<h4>Condition 0</h4>
+<h4>Condition 0: fast-forward</h4>
 
 If the branch you merged in is directly upstream of commits you're on, Git simply moves pointer forward, called fast-forward.
 
 ![Condition 0: directly upstream]({{ site.url }}/assets/images/GitPro/mergeCondition0.png)
 
-<h4>Condition 1</h4>
+<h4>Condition 1: three-way</h4>
 
 If the branch you merged in isn't directly upstream of commits you're on, Git does a simple three-way merge, using two snapshots pointed to by the branch tips and the common ancestor which is used for merge base. Instead of fast-forward, at this point, Git creates a new snapshot, called merge commit.
 
