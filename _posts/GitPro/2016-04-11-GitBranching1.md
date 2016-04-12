@@ -24,7 +24,7 @@ This command can be used to create a new branch while `checkout` will switch to 
 <pre class="prettyprint lang-sh">
 $ git branch [branch-name]
 $ git checkout [branch-name]
-$ git checkout -b [branch-name] #create a new branch anc switch to it
+$ git checkout -b [branch-name] #create a new branch and switch to it
 </pre>
 
 ![new branch]({{ site.url }}/assets/images/GitPro/newBranch.png)
@@ -43,7 +43,7 @@ If the branch you merged in is directly upstream of commits you're on, Git simpl
 
 <h4>Condition 1: three-way</h4>
 
-If the branch you merged in isn't directly upstream of commits you're on, Git does a simple three-way merge, using two snapshots pointed to by the branch tips and the common ancestor which is used for merge base. Instead of fast-forward, at this point, Git creates a new snapshot, called merge commit.
+If the branch you merged in isn't directly upstream of commits you're on, Git does a simple three-way merge, using two snapshots pointed to by the branch tips and the best common ancestor which is used for merge base. Instead of fast-forward, at this point, Git creates a new snapshot, called merge commit.
 
 ![Condition 0: not directly upstream]({{ site.url }}/assets/images/GitPro/mergeCondition1.png)
 
