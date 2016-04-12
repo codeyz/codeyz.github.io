@@ -52,3 +52,13 @@ If the branch you merged in isn't directly upstream of commits you're on, Git do
 <pre class="prettyprint lang-sh">
 $ git branch -d [branch-name]
 </pre>
+
+<h3>Branch Management</h3>
+
+
+<pre class="prettyprint lang-sh">
+$ git branch # show branches
+$ git branch -v # show last commit on each branch
+$ git branch --merged # list branches that you have merged into the branch you're currently on
+$ git branch --no-merged # list branches that you have not yet merged into the branch you're currently on
+</pre>
