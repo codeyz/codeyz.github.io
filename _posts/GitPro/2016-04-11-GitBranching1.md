@@ -1,5 +1,5 @@
 ---
-title: Git Branching(1)
+title: Git Branching(1) Branch Introduction
 layout: post
 category : Git
 tag : [git, merge, branch, conflicts]
