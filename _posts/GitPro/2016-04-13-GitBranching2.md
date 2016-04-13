@@ -80,7 +80,7 @@ $ git branch -u [remote/branch]
 
 To list local branches with more information and what each branch is tracking, using option `-vv`
 
-<pre>
+<pre class="prettyprint lang-sh">
 # list local branches with more information and what each branch is tracking
 $ git branch -vv
 </pre>
@@ -91,7 +91,7 @@ Note that these information are only since the last time you fetched from server
 
 Run the following to delete a remote branch
 
-<pre>
-$ #git push [remote] --delete [branch]
+<pre class="prettyprint lang-sh">
+$ git push [remote] --delete [branch]
 $ git push origin --delete test
 </pre>
