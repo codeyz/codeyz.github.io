@@ -164,3 +164,17 @@ table th[class*="col-"] {
   display: table-cell;
   float: none;
 }
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
+.highlight-span {
+  color: #f22430
+}
+
+.figure-caption {
+  display: block;
+  text-align: center;
+}
