@@ -14,7 +14,7 @@ tag : [string searching, hash]
 <span class = "figure-caption">图1. 暴力匹配</span>
 
 
-Rabin-Carp算法优化了这个过程，它利用哈希函数计算当前text的匹配窗口所对应的哈希值，如果哈希值不同，则窗口直接向右移一位；如果哈希值相同，再与pattern逐位匹配。
+Rabin-Carp算法优化了这个过程，它利用哈希函数计算pattern和当前text的匹配窗口所对应的哈希值，如果哈希值不同，则窗口直接右移一位；如果哈希值相同，再与pattern逐位匹配。
 
 ![Rabin-Carp]({{ site.url }}/assets/images/2016-04-23-Rabin-Carp.png){: .center-image }
 
@@ -109,7 +109,7 @@ int strStr(string text, string pattern)
 Rabin-Carp算法效果一般，但它有以下特点：
 
 1. 易于实现。
-2. 能用于多模式匹配，如论文抄袭检测。
+2. 能用于多模式匹配（所有模式串的长度相同），如论文抄袭检测。
 
 
 <h3>参考文献</h3>
